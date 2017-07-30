@@ -1,17 +1,16 @@
-This is a simple to use 4 polyphonic wavetable synthesizer library for Arduino.
+This is a simple to use 4 polyphonic wavetable synthesizer library for Arduino to serve as a hardware implementation of the PICO-8 PSG.
 
 Specs:
 
 20KHz sample rate using approx 45 % of the available CPU time.
 Output audio as PWM on pin 11, pin 3 or ad differential signal on both.
-Has 5 build in waveforms SINE, RAMP, SAW, SQUARE and NOISE.
-Has 4 build in envelopes.
-Each of the 4 voices has parameters for Waveform, Pitch (MIDI note or Frequency), Envelope, Duration and modulation
-Each voice has trigger functions for simple ot MIDI note trigger.
+Has 8 built in waveforms SINE, RAMP, SAW, SQUARE (25 %), SQUARE (50%), "ORGAN" and NOISE.
+Has 4 built in envelopes.
+Each of the 4 voices has parameters for Waveform, Pitch (FREQ based on Octave offset and note), Envelope, Duration and modulation/effects.
 Timing functions are available for sample rate sync and end-of-envelope detection.
 
 
-Dzl/Illutron 2014
 
+Dzl/Illutron 2014 & BigBoi 2017
 dzlsevilgeniuslair.blogspot.dk
 illutron.dk
